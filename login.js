@@ -7,12 +7,14 @@ function validate()
     const bigT = ["BigT", "BigBilly89!1", true]
 
     if(username == bigT[0] && password == bigT[1]){
-            alert("You are a admin");
-            alert("Welcome BigT!");
-            open('database.html');
-            close();
+        alert("Welcome BigT!");
+        open('database.html');
+        close();
+        return true;
     }else if(username == "test" && password == "test"){
         alert("Username: Test Password: test");
+        open('database.html');
+        close();
     }
     else
     {
