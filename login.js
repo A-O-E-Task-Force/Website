@@ -4,21 +4,21 @@ function validate()
     var password = document.getElementById('password').value;
     var isBanned = false;
 
-    const bigT = ["BigT", "BigBilly89!1", "Zimbabwe", true, true, false]
+    const bigT = ["BigT", "BigBilly89!1", true]
 
-    if(username == bigT[0].value && password == bigT[1])
-    {
-        alert("You have successfully logged in as Administrator!");
-        open('homepage.html');
-        close();
-        return false;
+    if(username == bigT[0] && password == bigT[1]){
+            alert("You are a admin");
+            alert("Welcome BigT!");
+            open('database.html');
+            close();
+    }else if(username == "test" && password == "test"){
+        alert("Username: Test Password: test");
     }
     else
     {
         alert("Username / password mismatch!");
         open('login.html');
-        close();
+        close();s
         return false;
     }
-
 }
