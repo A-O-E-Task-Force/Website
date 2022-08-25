@@ -18,7 +18,7 @@ function validate()
     {
         alert("Username / password mismatch!");
         open('login.html');
-        close();s
+        close();
         return false;
     }
 }
