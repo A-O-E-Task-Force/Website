@@ -3,10 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <title>Homepage</title>
+    <link rel="stylesheet" href="main.css">
     <script src="login.js"></script> 
+    <script src="database.js"></script>
   </head>
   <body>
-    <h1>Welcome to A.O.E Task Force</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Homepage</a>
+                <a href="wiki.html">Wiki</a>
+                <a id="TopSecret" href="database.html" onclick="openDatabase()">Database</a>
+                <a href="members.html">Members</a>
+                <a href="login.html">Login</a>
+            </li>
+        </ul>
+    </nav>
+    <h1 id="Header">Welcome to A.O.E Task Force</h1>
+    <br>
+    <br>
+    <p id="Body1">
+        This website is currently a work in progress and will be coming soon.
+        <br>
+        You may find more information on our <a href="https://discord.gg/sz8DGhuxtV">Discord!</a>
+    </p>
 
 
   </body>

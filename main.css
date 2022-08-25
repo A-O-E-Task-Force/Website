@@ -1,0 +1,39 @@
+#Header{
+    text-align: center;
+
+}
+
+#Body1{
+    text-align: center;
+    font-size: x-large;
+}
+
+#Wiki{
+    background-color: #ac806e;
+    border-color: black;
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    border-style: ridge;
+}
+
+#Login{
+    text-align: center;
+}
+
+li a{
+	background-color:#222222;
+    list-style: none;
+	float: center;
+	display:  inline-block;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	border-right: 1px solid black;
+	min-width: 60px;
+
+}
+li a:hover{
+	background-color: #333333;
+}
